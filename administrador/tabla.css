@@ -1,0 +1,31 @@
+#descripcion{
+    font-size: 17px;
+    text-align: center;
+}
+#Ejercicio,#descripcion{
+    font-weight: normal;
+}
+@media only screen and (max-width: 700px) {
+
+    .th{
+        
+        display:none;
+    }
+    .td{
+         display: block;
+    }
+    .td::before{
+
+        content: attr(data-cell) ": ";
+        font-weight: 700; 
+    }
+    #descripcion{
+        font-size: 11px;
+        text-align: center;
+        
+    }
+    .thead_{
+        font-size: 15px;
+    }
+
+}

@@ -1,0 +1,386 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald+Round);
+
+.logo_Empresa{
+
+  color: rgba(255, 255, 255, 0.9);
+  font: normal 15px  Comic Sans MS;
+  font-weight: bold;
+  font-size:20px;
+  letter-spacing: 3px;
+
+  text-transform: uppercase;
+  top: 50%;
+  animation: move linear 2000ms infinite;
+}
+.form-login{
+    margin: auto;
+    width: 60vh;
+    background-color: rgb(26, 26, 26);
+    border-radius: 15px;
+    border: solid 3px white;
+
+}
+
+.enlaces_navbar{
+
+    color:rgb(247, 249, 249) ;
+    padding: 20px;
+}
+.Efecto{
+
+    font-family: Comic Sans MS;
+    font-weight:bold;
+    color: white;
+    font-size:50px;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+}
+.main-clientes{
+
+    background-image: linear-gradient(rgba(31, 31, 31, 0.5),rgba(31, 31, 31, 0.5)), url(./imagenes/menu.jpg); 
+  
+    background-size: cover;
+    background-position: center;
+
+}
+
+.main-formulario{
+    background-image: linear-gradient(rgba(31, 31, 31, 0.5),rgba(31, 31, 31, 0.5)), url(../imagenes/login.jpg); 
+
+    background-size: cover;
+    background-position: center;
+}
+.main-login{
+
+    background-image: linear-gradient(rgba(31, 31, 31, 0.5),rgba(31, 31, 31, 0.5)), url(../imagenes/login.jpg); 
+
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.main{
+
+    background-image: linear-gradient(rgba(31, 31, 31, 0.5),rgba(31, 31, 31, 0.5)), url(./imagenes/imagen_logo_index.jpg); 
+
+    background-size: cover;
+    background-position: center;
+
+}
+.main2{
+
+    background-image: linear-gradient(rgba(48, 47, 47, 0.5),rgba(46, 46, 46, 0.5)), url(./imagenes/2.bmp);
+
+    background-size: cover;
+    background-position: center;
+
+}
+.redes_imagen{
+
+     background-image: linear-gradient(rgba(48, 47, 47, 0.5),rgba(46, 46, 46, 0.5)), url(./imagenes/redes_1.bmp);
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-servicios{
+
+    background-image: linear-gradient(rgba(48, 47, 47, 0.5),rgba(46, 46, 46, 0.5)), url(./imagenes/servicios_imagen2.png);
+
+    background-size: cover;
+    background-position: center;
+}
+.hero-ubi{
+
+    background-image: linear-gradient(rgba(48, 47, 47, 0.5),rgba(46, 46, 46, 0.5)), url(./imagenes/5.bmp);
+
+    background-size: cover;
+    background-position: center;
+}
+.parrafo_horas{
+    padding-top: 5px;
+    color: white ;
+    font-size: 35px;
+    font-weight: bold;
+}
+li{
+    font-size:25px;
+    color: white;
+}
+
+.title{
+    padding:80px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.title_servicios{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.title_horarios{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.hero-body{
+    text-align: center;
+
+}
+h1{
+
+    text-align: center;
+
+
+}
+
+.footer{
+
+    background-color: #0a0a0a;
+}
+.parrafo_footer{
+    color:rgb(247, 249, 249);
+    font-size: 17px;
+}
+
+
+.Contenido_iconos div{
+    flex: 1;
+    margin: 20px 0px;
+
+
+}
+
+.contenedor_servicios{
+
+
+
+
+    text-align: center;
+
+}
+
+.title_ubicacion{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.tarjetas .fila{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.table-container .card-image{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.listas{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+
+
+.parrafo_redes{
+    font-size: 40px;
+}
+.iconos_redes{
+    font-size: 50px;
+
+}
+.iconos_redes > a{
+    padding: 40px;
+    font-size: 70px;
+}
+
+.GPS{
+
+    width:100vh;
+    height: 45vh;
+    border-radius: 10px;
+}
+
+
+.logo {
+
+    margin: 4px;
+    align-items: center;
+    padding: 20px;
+    font-size: 10px;
+}
+.shadow{
+    background-color: rgb(255, 240, 240);
+
+    height: 2px;
+    margin: 0px;
+}
+a>b{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.buton_iniciar{
+    font-weight: bold;
+    font-size: 20px;
+}
+#boton_inicio{
+    color: black;
+
+}
+
+.enlaces_navbar>b:hover{
+
+    text-shadow: 0.5px 0.5px rgb(228, 228, 173);
+    color:rgb(228, 228, 173);
+}
+
+/* formulario */
+
+.container{
+    background-color:rgb(26, 26, 26);
+    padding: 20px 20px;
+    border-radius: 15px;
+
+}
+::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+
+}
+.label{
+    font-size: 20px;
+}
+
+span{
+    color: white;
+}
+.label{
+    color: #030303;
+  
+}
+
+option{
+    text-align: center;
+}
+.Personalestr{
+    display: grid;
+    grid-template-columns:repeat(2,1fr); 
+    
+    
+}
+.option1{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+.parrafo{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.checkbox{
+    font-size: 15px;
+}
+.regla_estilos>h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.span_formulario{
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .enlaces_navbar, .navbar-item{
+
+        color:black;
+
+    }
+
+    .title_servicios,.title_horarios{
+        font-size: 40px;
+    }
+    .parrafo_horas{
+        font-size: 25px;
+    }
+    .listas>li{
+        font-size: 20px;
+    }
+    .main,.main2,.hero-servicios,.hero-ubi{
+        width: auto;
+        height: auto;
+
+    }
+
+    .GPS{
+        padding: 20px;
+        width: 450px;
+        height: 200px;
+        border-radius: 25px;
+    }
+    .fa-lg{
+        width: 40%;
+        height: 40%;
+
+    }
+    .redes_imagen{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .form-login{
+       
+        width: auto;
+        height: auto;
+
+      }
+
+          /* formulario */
+    body {
+        display: block;
+
+    }
+
+
+    .Personales{
+        display: grid;
+        grid-template-columns: repeat(1,1fr); 
+  
+ 
+    }
+    .Personalestr{
+        display: grid;
+        grid-template-columns: repeat(1,1fr); 
+  
+ 
+    }
+    .enfermedad{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+  
+ 
+
+    }
+  
+  }

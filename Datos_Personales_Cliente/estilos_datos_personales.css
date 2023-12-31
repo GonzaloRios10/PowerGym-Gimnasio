@@ -1,0 +1,25 @@
+
+.info{
+   color:white;
+   text-align: center;
+   font-size:60px;
+
+}
+.table{
+    font-size: 25px;
+    
+}
+.place::placeholder {
+
+    font-size: 30px;
+  }
+@media only screen and (max-width: 700px) {
+
+    .info{
+        font-size: 35px;
+    }
+    .table{
+        font-size: 15px;
+    }
+
+}

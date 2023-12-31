@@ -1,0 +1,8 @@
+.main-cliente{
+
+    background-image: linear-gradient(rgba(31, 31, 31, 0.5),rgba(31, 31, 31, 0.5)), url(../imagenes/menu.jpg); 
+  
+    background-size: cover;
+    background-position: center;
+
+}

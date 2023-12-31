@@ -1,0 +1,27 @@
+#descripcion{
+    font-size: 17px;
+    
+}
+#Ejercicio,#descripcion{
+    font-weight: normal;
+}
+@media only screen and (max-width: 700px) {
+
+    .th{
+        
+        display:none;
+    }
+    .td{
+         display: block;
+    }
+    .td::before{
+
+        content: attr(data-cell) ": ";
+        font-weight: 700; 
+    }
+    #descripcion,#Ejercicio{
+        font-size: 13px;
+        
+    }
+
+}

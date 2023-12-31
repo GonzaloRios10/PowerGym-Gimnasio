@@ -1,0 +1,12 @@
+
+@media only screen and (max-width: 700px) {
+
+    .td_ejercicio{
+        display: block;
+
+    }
+    .descripcion{
+        background-color: aqua;
+    }
+
+}

@@ -1,0 +1,38 @@
+.main-profesor{
+    background-image: linear-gradient(rgba(31, 31, 31, 0.5),rgba(31, 31, 31, 0.5)), url(../imagenes/profesor.jpg); 
+
+    background-size: cover;
+    background-position: center;
+}
+
+.info{
+   color:white;
+   text-align: center;
+   font-size:60px;
+
+}
+.table{
+    font-size: 25px;
+
+}
+.place::placeholder {
+ 
+    font-size: 30px;
+}
+
+option{
+    color: rgb(11, 11, 11);
+}
+@media only screen and (max-width: 700px) {
+
+    .info{
+        font-size: 35px;
+    }
+    .table{
+        font-size: 15px;
+
+    
+        
+    }
+
+}
